@@ -2,12 +2,12 @@
 <html>
     <head>
         <title>Maram Elsayed</title>
+        <script src="myscript.js"></script>
         <style>
         body {
-            background-color: #343444;
+            background-color: #333;
             margin: 0;
-            padding: 0;
-            
+            padding-top: 80px;
         }
 
         .navbar {
@@ -54,17 +54,110 @@
             background-color: #282424
         }
         
+        .circular--portrait { 
+            position: absolute; 
+            top: 90px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 350px; 
+            height: 350px; 
+            overflow: hidden; 
+            border-radius: 50%;
+            
+        } 
+        .circular--portrait img { 
+            width: 100%; 
+            height: auto; 
+        }
+
+        .background--photo { 
+            position: absolute; 
+            top: 250px;
+            width: 100%;
+            left: 0; 
+        } 
+
+        .photo--text { 
+            display: inline;
+            position: absolute; 
+            left:50%;
+            transform: translateX(-50%);
+            top: 520px;
+            text-decoration: none;
+            color: rgba(255,255,255,.75);
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        .photo--texting { 
+            display: inline;
+            position: absolute; 
+            left:50%;
+            transform: translateX(-50%);
+            top: 490px;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 15px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        h1 {display: inline;}
+
+        .background--photo img { 
+            width: 100%; 
+            height: 600px; 
+        }
+        .rest--body{
+            position: absolute; 
+            top: 850px;
+            left: 0;
+        }
         </style>
     </head>
     <body>
+        <div class="background--photo">
+            <img src="Designs-06.jpg">
+        </div>
+        <div class="photo--texting">
+            <h1>Hi, I'm Maram!</h1>
+            <br><br><br><br><br><br><br><br><br>
+            <button>hi</button>
+        </div>
+        <div class="photo--text">
+            <br><br>
+            <h1>I'm passionate about </h1>
+            <h1>
+                <a class="typewrite" data-period="2000" data-type='[ "Data Science.", "Machine Learning.", "Web Development.", "Testing." ]'>
+                  <span class="wrap"></span>
+                </a>
+            </h1>
+        </div>
+
+        <div class="circular--portrait"> 
+            <img src="me.jpg" />
+        </div>
+        <div class="rest--body">
+            <div id="about">
+                <h1>this is section about me</h1>
+            </div>
+    
+            <div id="projects">
+                <h1>this is section about projects</h1>
+            </div>
+    
+            <div id="contact">
+                <h1>this is section about contacts</h1>
+            </div>
+        </div>
+        
         <nav class="navbar">
             <div class="logo">
                 <img src="Maram-Elsayed.png" alt="Logo">
             </div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
+                <li><a href="#top">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
