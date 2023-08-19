@@ -18,6 +18,9 @@
             align-items: center;
             padding: 10px;
             font-family: 'Roboto', sans-serif;
+            position: fixed; /* Set the navbar to fixed position */
+            top: 0; /* Position the navbar at the top of the page */
+            width: 100%;
         }
 
         .logo img {
@@ -49,29 +52,6 @@
 
         .nav-links li a:hover {
             background-color: #282424
-        }
-
-        @media only screen 
-        and (width: 390px) 
-        and (height: 844px) 
-        and (-webkit-device-pixel-ratio: 3) { 
-            .body {
-                background-color: lightblue;
-            }
-            /* Increase the navbar height */
-            .navbar {
-                padding: 20px;
-            }
-
-            /* Increase the logo size */
-            .logo img {
-                height: 60px;
-            }
-
-            /* Adjust the navigation links padding */
-            .nav-links li a {
-                padding: 12px 16px;
-            }
         }
         
         </style>
