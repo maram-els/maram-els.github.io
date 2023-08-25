@@ -54,3 +54,16 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+document.addEventListener("DOMContentLoaded", function() {
+    const navbar = document.querySelector('.navbar');
+
+    window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+        navbar.classList.add('scroll');
+    } else {
+        navbar.classList.remove('scroll');
+    }
+    });
+});
+  
