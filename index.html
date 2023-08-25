@@ -75,7 +75,7 @@
         }
 
         .background--photo { 
-            position: absolute;
+            position: relative;
             width: 100%;
             left: 0; 
         } 
@@ -85,10 +85,10 @@
             position: absolute; 
             left:50%;
             transform: translateX(-50%);
-            top: 520px;
+            top: 500px;
             text-decoration: none;
             color: #e9e5dc;
-            font-size: 15px;
+            font-size: 12px;
             text-transform: uppercase;
             text-align: center;
         }
@@ -97,12 +97,19 @@
             position: absolute; 
             left:50%;
             transform: translateX(-50%);
-            top: 490px;
+            top: 470px;
             text-decoration: none;
             color: #e9e5dc;
             font-size: 15px;
             text-transform: uppercase;
             text-align: center;
+        }
+        .photo--button { 
+            display: inline;
+            position: absolute; 
+            left:50%;
+            transform: translateX(-50%);
+            top: 600px;
         }
 
         h1 {display: inline;}
@@ -140,7 +147,7 @@
             border: 2px solid #e9e5dc;
         }
 
-        .custom-shape-divider-bottom-1692954379 {
+        .custom-shape-divider-bottom-1692957800 {
             position: absolute;
             bottom: 0;
             left: 0;
@@ -149,23 +156,15 @@
             line-height: 0;
         }
 
-        .custom-shape-divider-bottom-1692954379 svg {
+        .custom-shape-divider-bottom-1692957800 svg {
             position: relative;
             display: block;
             width: calc(100% + 1.3px);
-            height: 150px;
+            height: 100px;
         }
 
-        .custom-shape-divider-bottom-1692954379 .shape-fill {
+        .custom-shape-divider-bottom-1692957800 .shape-fill {
             fill: #E9E5DC;
-        }
-
-        /** For mobile devices **/
-        @media (max-width: 767px) {
-            .custom-shape-divider-bottom-1692954379 svg {
-                width: calc(100% + 1.3px);
-                height: 51px;
-            }
         }
         </style>
     </head>
@@ -185,6 +184,11 @@
     <body>
         <div class="background--photo">
             <img src="bg.jpeg">
+            <div class="custom-shape-divider-bottom-1692957800">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+                </svg>
+            </div>
         </div>
         <div class="photo--texting">
             <h1>Hi, I'm Maram!</h1>
@@ -197,12 +201,12 @@
                   <span class="wrap"></span>
                 </a>
             </h1>
-            <br><br>
-            <a class="resume-button" href="Elsayed_Resume_General.pdf">Resume</a>
         </div>
-
         <div class="circular--portrait"> 
             <img src="me.jpg" />
+        </div>
+        <div class="photo--button">
+            <a class="resume-button" href="Elsayed_Resume_General.pdf">Resume</a>
         </div>
         <div class="rest--body">
             <div id="about">
@@ -217,12 +221,5 @@
                 <h1>this is section about contacts</h1>
             </div>
         </div>
-
-        <div class="custom-shape-divider-bottom-1692954379">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
-            </svg>
-        </div>
-
     </body>
 </html>
