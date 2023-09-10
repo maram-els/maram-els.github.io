@@ -7,6 +7,8 @@
         body {
             background-color: #e9e5dc;
             margin: 0;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-weight: 300;
         }
 
         .navbar {
@@ -116,12 +118,7 @@
 
         .background--photo img { 
             width: 100%; 
-            height: 800px; 
-        }
-        .rest--body{
-            position: absolute; 
-            top: 850px;
-            left: 0;
+            height: 770px; 
         }
         
         .resume-button{
@@ -166,6 +163,23 @@
         .custom-shape-divider-bottom-1692957800 .shape-fill {
             fill: #E9E5DC;
         }
+
+        .floating-box {
+            position: relative;
+            display: inline-block;
+            width: 40%;
+            height: relative;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 15px;
+            background-size: cover;
+        }
+
+        .about {
+            text-align: center;
+        }
         </style>
     </head>
     <header>
@@ -185,13 +199,13 @@
         <div class="background--photo">
             <img src="bg.jpeg">
             <div class="custom-shape-divider-bottom-1692957800">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -40 1200 120" preserveAspectRatio="none">
                     <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
                 </svg>
             </div>
         </div>
         <div class="photo--texting">
-            <h1>Hi, I'm Maram!</h1>
+            <h1>Hi, I'm <h1 style="color:#e1a577">Maram!</h1></h1>
         </div>
         <div class="photo--text">
             <br><br>
@@ -208,18 +222,31 @@
         <div class="photo--button">
             <a class="resume-button" href="Elsayed_Resume_General.pdf">Resume</a>
         </div>
-        <div class="rest--body">
-            <div id="about">
-                <h1>this is section about me</h1>
+        <div id="about" class="about">
+            <h1 style="color: #5c6a51; font-size: 35px;">About Me</h1>
+            <br><br>
+            <div class="floating-box" style="width:  89%; background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(bx1.avif);">
+                <h2>Introduction</h2>
+                <p>Hello, I'm Maram Elsayed! A fresh graduate, having recently attained a Bachelor's degree in Software Engineering from the University of Calgary. </p> 
+                <p>I have a deep interest towards the everlasting and fascinating field of technology. Continuously improving my skills by engaging with diverse platforms, tools and programming languages has been a source of enthusiasm for me.</p>
+                <p>I'm excited to embark on a new chapter in life, one characterized by boundless adventures and opportunities waiting to be seized.</p>
+                <p>Outside of the world of technology, I personally enjoy exploring a variety of different hobbies such as knitting, ice skating, biking, etc.</p>
             </div>
-    
-            <div id="projects">
-                <h1>this is section about projects</h1>
+            <div class="floating-box" style="background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(bx2.jpeg);">
+                <h2>Education</h2>
+                Floating box 2
             </div>
-    
-            <div id="contact">
-                <h1>this is section about contacts</h1>
+            <div class="floating-box" style="background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(bx3.webp);">
+                Floating box 3
             </div>
+         </div>
+
+        <div id="projects">
+            <h1>this is section about projects</h1>
+        </div>
+
+        <div id="contact">
+            <h1>this is section about contacts</h1>
         </div>
     </body>
 </html>
