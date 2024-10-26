@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.93621af7.css",
+    "main.js": "/static/js/main.f6ed8be7.js",
+    "static/js/453.1442a825.chunk.js": "/static/js/453.1442a825.chunk.js",
+    "static/media/photo.png": "/static/media/photo.78ac8d3293393220b7b7.png",
+    "static/media/photo4.jpg": "/static/media/photo4.d511de64c4e389938a95.jpg",
+    "static/media/photo5.jpg": "/static/media/photo5.8418436231167aa25315.jpg",
+    "static/media/photo2.jpg": "/static/media/photo2.c869ab6a49318eeb5d38.jpg",
+    "static/media/photo6.jpg": "/static/media/photo6.4758201c93ed13e32970.jpg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/photo3.jpg": "/static/media/photo3.f24c92618b5d58c1fe34.jpg",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/photo1.jpg": "/static/media/photo1.875b1f30a96f2893a324.jpg",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/logo.png": "/static/media/logo.f6f73f32044effbd5d5a.png",
+    "static/media/Agrandir-TextBold.ttf": "/static/media/Agrandir-TextBold.a36e45a7ec595d90635e.ttf",
+    "static/media/Agrandir-Regular.ttf": "/static/media/Agrandir-Regular.aaa03f61b1e0f0cc4209.ttf",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/logo-hover.png": "/static/media/logo-hover.a8efcfb9318ac0408744.png",
+    "static/media/resume.pdf": "/static/media/resume.bfcac468e7078c52d06a.pdf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/index.html",
+    "main.93621af7.css.map": "/static/css/main.93621af7.css.map",
+    "main.f6ed8be7.js.map": "/static/js/main.f6ed8be7.js.map",
+    "453.1442a825.chunk.js.map": "/static/js/453.1442a825.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93621af7.css",
+    "static/js/main.f6ed8be7.js"
+  ]
+}
